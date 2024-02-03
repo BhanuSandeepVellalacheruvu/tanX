@@ -21,7 +21,7 @@ This project analyzes data from an online store to compute various revenue metri
     ```
 
 4. **Run the Main Program:**
-    - Replace `your_csv_file_path` in `app/main.py` with the actual file path for your data.
+    - Replace `app/orders` in `app/main.py` with the actual file path for your data.
     - Execute the following command to build and run the main program:
         ```bash
         docker-compose up task
