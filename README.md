@@ -1,4 +1,4 @@
-# tanX Assignment
+<img width="495" alt="image" src="https://github.com/BhanuSandeepVellalacheruvu/tanX/assets/118993028/54a2e5df-b504-46d5-874b-390f4c4139c4"># tanX Assignment
 
 ## Description
 This project analyzes data from an online store to compute various revenue metrics. The main program (`main.py`) reads data from `orders.csv` and performs tasks such as computing monthly revenue, product revenue, customer revenue, and identifying top customers.
@@ -32,6 +32,7 @@ This project analyzes data from an online store to compute various revenue metri
         ```bash
         docker-compose up test
         ```
+**<img width="495" alt="image" src="https://github.com/BhanuSandeepVellalacheruvu/tanX/assets/118993028/b29b4ebf-ae79-498b-b421-2bfea0077e89">
 
 ## Providing Input
 - The main program reads data from `orders.csv`. Ensure that you have a CSV file with the required columns (`order_id`, `customer_id`, `order_date`, `product_id`, `product_name`, `product_price`, `quantity`).
