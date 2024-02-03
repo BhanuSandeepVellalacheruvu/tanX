@@ -1,5 +1,6 @@
 import unittest
-from main import OnlineStoreAnalytics
+import pandas as pd
+from app.main import OnlineStoreAnalytics
 
 class TestOnlineStoreAnalytics(unittest.TestCase):
     def setUp(self):
@@ -11,6 +12,7 @@ class TestOnlineStoreAnalytics(unittest.TestCase):
             'customer_id': ['Cust_1', 'Cust_2', 'Cust_1']
         }
         self.df = pd.DataFrame(self.sample_data)
+        self.df['order_date'] = pd.to_datetime(self.df['order_date'])
 
     def test_compute_monthly_revenue(self):
         # Test the compute_monthly_revenue method
@@ -42,4 +44,3 @@ class TestOnlineStoreAnalytics(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-

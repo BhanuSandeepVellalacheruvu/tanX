@@ -1,11 +1,17 @@
 version: '3'
+
 services:
   task:
-    build: .
-    ports:
-      - "80:80"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/usr/src/app/app
 
   test:
     build:
       context: .
       dockerfile: Dockerfile.test
+    volumes:
+      - ./app:/usr/src/app/app
+      - ./tests:/usr/src/app/tests
