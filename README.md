@@ -77,6 +77,32 @@ The project has the following structure:
     ```bash
     docker-compose up task
     ```
+## Viewing Results
+
+### Main Program Output:
+- The main program will display the computed metrics, such as monthly revenue, product revenue, customer revenue, and top customers, in the console.
+
+### Test Results:
+- The test results will be displayed in the console, showing whether the tests passed or if there are any failures.
+
+## Customizing Dockerized Application
+
+### Docker Configuration:
+- The Docker configuration is defined in the `Dockerfile` and `docker-compose.yml` files.
+
+### Dependencies:
+- Python dependencies are listed in the `requirements.txt` file.
+
+### Cleaning Up:
+- After running the application or tests, you can clean up the Docker containers using:
+    ```bash
+    docker-compose down
+
+### Detached Mode:
+- If you prefer to run the Dockerized application in the background (detached mode), use the `-d` flag:
+    ```bash
+    docker-compose up -d task
+    ```
 
 ## Dockerized Application
 The application is containerized using Docker for easy deployment. Docker Compose manages the services and dependencies.
