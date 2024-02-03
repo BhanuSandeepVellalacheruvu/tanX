@@ -58,11 +58,11 @@ The project has the following structure:
 
 ### Input Declaration:
 - The main program reads input data from a CSV file named `orders.csv`.
-- To customize input or use a different data file, modify the `your_csv_file_path` variable in `app/main.py`.
+- To customize input or use a different data file, modify the `app/orders.csv` variable in `app/main.py`.
 
 ### Providing Input:
 1. Ensure your data file follows the required structure with columns: `order_id`, `customer_id`, `order_date`, `product_id`, `product_name`, `product_price`, `quantity`.
-2. Replace `your_csv_file_path` in `app/main.py` with the actual path to your data file.
+2. Replace `app/orders.csv` in `app/main.py` with the actual path to your data file.
 3. Save the changes.
 4. Run the main program using:
     ```bash
