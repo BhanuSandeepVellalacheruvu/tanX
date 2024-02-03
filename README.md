@@ -33,7 +33,7 @@ This project analyzes data from an online store to compute various revenue metri
         docker-compose up test
         ```
 
-![Test Output](https://github.com/BhanuSandeepVellalacheruvu/tanX/assets/118993028/b29b4ebf-ae79-498b-b421-2bfea0077e89)
+[Test Output](https://github.com/BhanuSandeepVellalacheruvu/tanX/assets/118993028/b29b4ebf-ae79-498b-b421-2bfea0077e89)
 
 ## Providing Input
 - The main program reads data from `orders.csv`. Ensure that you have a CSV file with the required columns (`order_id`, `customer_id`, `order_date`, `product_id`, `product_name`, `product_price`, `quantity`).
