@@ -72,7 +72,7 @@ The project has the following structure:
 ## Example: Using orders.csv
 - The repository includes a sample data file named `orders.csv` in the `app/` directory.
 - This file serves as an example input for the main program.
-- To run the main program with the provided example, ensure `your_csv_file_path` is set to `'app/orders.csv'` in `app/main.py`.
+- To run the main program with the provided example, ensure `app/orders.csv` is set to `'orders.csv'` in `app/main.py`.
 - Execute the following command:
     ```bash
     docker-compose up task
